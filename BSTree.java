@@ -99,7 +99,7 @@ public class BSTree {
 	}	
 	
 	private void printIn(Node tree, StringBuilder b) {
-		if(tree != null) {
+		if (tree != null) {
 			printIn(tree.left, b);
 			b.append(tree.data + " ");
 			printIn(tree.right, b);
